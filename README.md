@@ -1,3 +1,3 @@
-# study_of_memoing_fibonacci
+# Fibonacci with Memoing
 
 fibonacci sequence with dynamic programming technique
