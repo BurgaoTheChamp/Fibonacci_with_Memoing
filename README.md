@@ -1,3 +1,3 @@
 # Fibonacci with Memoing
 
-fibonacci sequence with dynamic programming technique
+Fibonacci sequence efficency being compared with dynamic programming technique

@@ -2,7 +2,7 @@
 #include <unordered_map>
 #include <chrono>
 
-uint64_t fib(const int &n){
+uint64_t fib(const uint64_t &n){
     if (n < 3)
     {
         return 1;
@@ -12,7 +12,7 @@ uint64_t fib(const int &n){
 }
 
 
-uint64_t fib_hashed(const int &n){
+uint64_t fib_hashed(const uint64_t &n){
 
     static std::unordered_map <int, uint64_t> container;
 
@@ -64,6 +64,7 @@ int main(){
                 break;
             case 1:
                 std::cout << "Here we go again " << std::endl;
+                break;
             default:
                 std::cout << "Invalid answer however i will consider as one :) " << std::endl;
                 break;
